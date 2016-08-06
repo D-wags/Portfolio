@@ -1,0 +1,42 @@
+@media only screen and (max-width: 980px;) {
+    	.container, .row {
+    		background-color: lightblue;
+    		width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px;) {
+    	.container, .row, .col-lg-12 {
+    		background-color: red;
+    		color: red;
+    		width: 100%;
+    	}
+
+    	.main-content,
+    	.sidebar {
+    		width: 100%;
+    	}
+		.sidebar {
+    		margin-top: 40px;
+
+    	}
+
+    }
+
+@media only screen and (max-width: 640px;) {
+        .container, .row, .col-lg-12 {
+            background-color: red;
+            color: red;
+            width: 100%;
+        }
+
+        .main-content,
+        .sidebar {
+            width: 100%;
+        }
+        .sidebar {
+            margin-top: 40px;
+
+        }
+
+    }
